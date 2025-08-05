@@ -1,6 +1,6 @@
 package model;
 
-import java.sql.Date;
+import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.concurrent.TimeUnit;
 
@@ -50,7 +50,7 @@ public class Reservation {
 
     @Override
     public String toString() {
-        return "Room"
+        return "Room: "
                 + roomNumber
                 + ", check-in: "
                 + sdf.format(checkIn)
